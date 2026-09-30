@@ -1,0 +1,58 @@
+[project]
+name = "tabpfn-vs-paretonbd"
+version = "0.1.0"
+description = "TabPFN vs Pareto/NBD: when does TabPFN-3.5 beat Bayesian customer models at predicting whether customers buy again? A data-efficiency benchmark and inspectable workbench."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Timur Salakhetdinov" }]
+requires-python = ">=3.11"
+dependencies = [
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+    "streamlit>=1.64.0",
+    "tabpfn==9.0.0",
+    "typer>=0.27.2",
+]
+
+[project.scripts]
+tabpfn-vs-paretonbd = "tabpfn_vs_paretonbd.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+# macOS: cloned files can inherit the "hidden" flag and Python skips hidden .pth files.
+link-mode = "copy"
+# Rebuild the project install whenever a source file changes (use UV_NO_EDITABLE=1 on macOS, see README).
+cache-keys = [{ file = "pyproject.toml" }, { file = "src/**/*.py" }]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["B008", "B905", "E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/pilots/*" = ["E402", "E702"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: needs TabPFN weights or long runtime"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]

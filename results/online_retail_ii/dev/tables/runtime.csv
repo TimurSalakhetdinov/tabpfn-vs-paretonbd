@@ -1,0 +1,13 @@
+model,features,seconds_total,seconds_per_origin,origins
+abe_hb,common,687.65,229.21666666666667,3
+base_rate,common,0.0,0.0,3
+base_rate,expanded,0.0,0.0,3
+glm,common,1.01,0.33666666666666667,3
+glm,expanded,0.19,0.06333333333333334,3
+lgbm,common,1.54,0.5133333333333333,3
+lgbm,expanded,1.7599999999999998,0.5866666666666666,3
+pareto_nbd,common,620.79,206.92999999999998,3
+recency,common,0.91,0.30333333333333334,3
+recency,expanded,0.0,0.0,3
+tabpfn,common,470.02,156.67333333333332,3
+tabpfn,expanded,542.61,180.87,3

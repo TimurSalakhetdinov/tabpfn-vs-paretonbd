@@ -1,0 +1,44 @@
+{
+ "dataset": "online_retail_ii",
+ "split": "holdout",
+ "horizon_days": 90,
+ "data_end": "2011-12-09",
+ "train_window_origins": 1,
+ "origins": [
+  {
+   "origin": "2011-07-01",
+   "train_origins": [
+    "2011-04-01"
+   ],
+   "n_train": 4716,
+   "n_train_customers": 4716,
+   "n_test": 5041,
+   "excluded_immature_rows_before_origin": 9755
+  },
+  {
+   "origin": "2011-08-01",
+   "train_origins": [
+    "2011-05-01"
+   ],
+   "n_train": 4822,
+   "n_train_customers": 4822,
+   "n_test": 5143,
+   "excluded_immature_rows_before_origin": 9974
+  },
+  {
+   "origin": "2011-09-01",
+   "train_origins": [
+    "2011-06-01"
+   ],
+   "n_train": 4933,
+   "n_train_customers": 4933,
+   "n_test": 5249,
+   "excluded_immature_rows_before_origin": 10184
+  }
+ ],
+ "seed": 20260929,
+ "raw_sha256": {
+  "online_retail_ii": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb"
+ },
+ "positive_class": "inactive: no purchase occasion in [origin, origin + horizon)"
+}

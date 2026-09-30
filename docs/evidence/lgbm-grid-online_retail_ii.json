@@ -1,0 +1,445 @@
+{
+ "grid": [
+  {
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40
+  },
+  {
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40
+  },
+  {
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40
+  },
+  {
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40
+  }
+ ],
+ "rows": [
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.22838923153733948,
+   "count_mae": 0.9991683756103908
+  },
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.22447721253760758,
+   "count_mae": 0.9364027996610346
+  },
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19567568320785897,
+   "count_mae": 0.7894936610174761
+  },
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.1897107247870888,
+   "count_mae": 0.7086755702805236
+  },
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.17227955318676932,
+   "count_mae": 0.6062709011468691
+  },
+  {
+   "config": 0,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.17180886902752351,
+   "count_mae": 0.580386895683065
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.22810733882243692,
+   "count_mae": 0.9836389506799375
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.22853198202533,
+   "count_mae": 0.9551049424242696
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19571609361367878,
+   "count_mae": 0.7912849162000187
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.1910849069945006,
+   "count_mae": 0.7075922346809502
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.17382733316746404,
+   "count_mae": 0.6044665226880964
+  },
+  {
+   "config": 1,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.17302769127765041,
+   "count_mae": 0.5758871839010228
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.22926335684328006,
+   "count_mae": 0.9944624066474168
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.23004512762495222,
+   "count_mae": 0.9675029956620257
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19665535426391137,
+   "count_mae": 0.7834846590234478
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.1937530033041944,
+   "count_mae": 0.7122708539492357
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.17582580758259014,
+   "count_mae": 0.6122471845936606
+  },
+  {
+   "config": 2,
+   "n_estimators": 150,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.1739784191573532,
+   "count_mae": 0.5750713763031701
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.22749599706961282,
+   "count_mae": 0.9639270537891856
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.22779572055341085,
+   "count_mae": 0.9622559155334117
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19619809955891418,
+   "count_mae": 0.7967226775471683
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.19091914288331674,
+   "count_mae": 0.7137461513690657
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.1731883246545958,
+   "count_mae": 0.5962557806901969
+  },
+  {
+   "config": 3,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 7,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.17336364465302512,
+   "count_mae": 0.5602234080111319
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.22798648523633003,
+   "count_mae": 0.9215514550379084
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.2308435624360984,
+   "count_mae": 0.9731829076388042
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19668377081236083,
+   "count_mae": 0.7957895746363501
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.19386357503666324,
+   "count_mae": 0.7119215447254085
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.17547979941038458,
+   "count_mae": 0.5937818545703032
+  },
+  {
+   "config": 4,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 15,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.1756889116891388,
+   "count_mae": 0.5601512207177047
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "common",
+   "brier": 0.2306361476202127,
+   "count_mae": 0.9266051532356453
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-01-01",
+   "features": "expanded",
+   "brier": 0.2314603363514794,
+   "count_mae": 0.9799765239169966
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "common",
+   "brier": 0.19701009609926146,
+   "count_mae": 0.7782386687893813
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-02-01",
+   "features": "expanded",
+   "brier": 0.19844084927598848,
+   "count_mae": 0.7134739690743722
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "common",
+   "brier": 0.1781743846640207,
+   "count_mae": 0.5985372873945631
+  },
+  {
+   "config": 5,
+   "n_estimators": 300,
+   "learning_rate": 0.03,
+   "num_leaves": 31,
+   "min_child_samples": 40,
+   "origin": "2011-03-01",
+   "features": "expanded",
+   "brier": 0.17734705317167263,
+   "count_mae": 0.5605181513206369
+  }
+ ],
+ "selected": {
+  "n_estimators": 150,
+  "learning_rate": 0.03,
+  "num_leaves": 7,
+  "min_child_samples": 40
+ },
+ "rule": "min mean dev Brier"
+}

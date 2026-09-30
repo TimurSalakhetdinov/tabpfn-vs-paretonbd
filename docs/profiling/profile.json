@@ -1,0 +1,1176 @@
+{
+ "online_retail_ii": {
+  "cleaning_log": {
+   "lines_after_sheet_overlap_removed": 1044848,
+   "lines_missing_customer": 235287,
+   "lines_cancellation": 18446,
+   "lines_nonpositive_qty_or_price": 70,
+   "lines_exact_duplicate": 11620,
+   "lines_used": 779425,
+   "occasions": 33107,
+   "customers": 5878
+  },
+  "first_date": "2009-12-01",
+  "last_date": "2011-12-09",
+  "span_days": 739,
+  "customers": 5878,
+  "occasions": 33107,
+  "occasions_per_customer_median": 3.0,
+  "share_customers_repeat": 0.713,
+  "share_first_obs_in_first_60d": 0.223,
+  "interpurchase_days_median": 31.0,
+  "interpurchase_days_p90": 147.0,
+  "horizons": {
+   "30": {
+    "grid": [
+     {
+      "origin": "2010-03-01",
+      "n_base": 1712,
+      "p_inactive": 0.651
+     },
+     {
+      "origin": "2010-03-31",
+      "n_base": 2135,
+      "p_inactive": 0.696
+     },
+     {
+      "origin": "2010-04-30",
+      "n_base": 2442,
+      "p_inactive": 0.709
+     },
+     {
+      "origin": "2010-05-30",
+      "n_base": 2702,
+      "p_inactive": 0.727
+     },
+     {
+      "origin": "2010-06-29",
+      "n_base": 2954,
+      "p_inactive": 0.746
+     },
+     {
+      "origin": "2010-07-29",
+      "n_base": 3145,
+      "p_inactive": 0.759
+     },
+     {
+      "origin": "2010-08-28",
+      "n_base": 3308,
+      "p_inactive": 0.76
+     },
+     {
+      "origin": "2010-09-27",
+      "n_base": 3498,
+      "p_inactive": 0.682
+     },
+     {
+      "origin": "2010-10-27",
+      "n_base": 3899,
+      "p_inactive": 0.676
+     },
+     {
+      "origin": "2010-11-26",
+      "n_base": 4228,
+      "p_inactive": 0.774
+     },
+     {
+      "origin": "2010-12-26",
+      "n_base": 4342,
+      "p_inactive": 0.882
+     },
+     {
+      "origin": "2011-01-25",
+      "n_base": 4395,
+      "p_inactive": 0.84
+     },
+     {
+      "origin": "2011-02-24",
+      "n_base": 4511,
+      "p_inactive": 0.835
+     },
+     {
+      "origin": "2011-03-26",
+      "n_base": 4691,
+      "p_inactive": 0.828
+     },
+     {
+      "origin": "2011-04-25",
+      "n_base": 4809,
+      "p_inactive": 0.812
+     },
+     {
+      "origin": "2011-05-25",
+      "n_base": 4916,
+      "p_inactive": 0.823
+     },
+     {
+      "origin": "2011-06-24",
+      "n_base": 5027,
+      "p_inactive": 0.842
+     },
+     {
+      "origin": "2011-07-24",
+      "n_base": 5112,
+      "p_inactive": 0.837
+     },
+     {
+      "origin": "2011-08-23",
+      "n_base": 5220,
+      "p_inactive": 0.826
+     },
+     {
+      "origin": "2011-09-22",
+      "n_base": 5357,
+      "p_inactive": 0.78
+     },
+     {
+      "origin": "2011-10-22",
+      "n_base": 5599,
+      "p_inactive": 0.755
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 21,
+     "eval_origins": [
+      "2011-08-23",
+      "2011-09-22",
+      "2011-10-22"
+     ],
+     "mature_train_origins": 18,
+     "eval_base_customers": [
+      5220,
+      5357,
+      5599
+     ]
+    }
+   },
+   "60": {
+    "grid": [
+     {
+      "origin": "2010-03-01",
+      "n_base": 1712,
+      "p_inactive": 0.485
+     },
+     {
+      "origin": "2010-03-31",
+      "n_base": 2135,
+      "p_inactive": 0.524
+     },
+     {
+      "origin": "2010-04-30",
+      "n_base": 2442,
+      "p_inactive": 0.551
+     },
+     {
+      "origin": "2010-05-30",
+      "n_base": 2702,
+      "p_inactive": 0.588
+     },
+     {
+      "origin": "2010-06-29",
+      "n_base": 2954,
+      "p_inactive": 0.613
+     },
+     {
+      "origin": "2010-07-29",
+      "n_base": 3145,
+      "p_inactive": 0.615
+     },
+     {
+      "origin": "2010-08-28",
+      "n_base": 3308,
+      "p_inactive": 0.55
+     },
+     {
+      "origin": "2010-09-27",
+      "n_base": 3498,
+      "p_inactive": 0.503
+     },
+     {
+      "origin": "2010-10-27",
+      "n_base": 3899,
+      "p_inactive": 0.581
+     },
+     {
+      "origin": "2010-11-26",
+      "n_base": 4228,
+      "p_inactive": 0.722
+     },
+     {
+      "origin": "2010-12-26",
+      "n_base": 4342,
+      "p_inactive": 0.775
+     },
+     {
+      "origin": "2011-01-25",
+      "n_base": 4395,
+      "p_inactive": 0.738
+     },
+     {
+      "origin": "2011-02-24",
+      "n_base": 4511,
+      "p_inactive": 0.722
+     },
+     {
+      "origin": "2011-03-26",
+      "n_base": 4691,
+      "p_inactive": 0.715
+     },
+     {
+      "origin": "2011-04-25",
+      "n_base": 4809,
+      "p_inactive": 0.712
+     },
+     {
+      "origin": "2011-05-25",
+      "n_base": 4916,
+      "p_inactive": 0.73
+     },
+     {
+      "origin": "2011-06-24",
+      "n_base": 5027,
+      "p_inactive": 0.748
+     },
+     {
+      "origin": "2011-07-24",
+      "n_base": 5112,
+      "p_inactive": 0.732
+     },
+     {
+      "origin": "2011-08-23",
+      "n_base": 5220,
+      "p_inactive": 0.683
+     },
+     {
+      "origin": "2011-09-22",
+      "n_base": 5357,
+      "p_inactive": 0.64
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 20,
+     "eval_origins": [
+      "2011-07-24",
+      "2011-08-23",
+      "2011-09-22"
+     ],
+     "mature_train_origins": 16,
+     "eval_base_customers": [
+      5112,
+      5220,
+      5357
+     ]
+    }
+   },
+   "90": {
+    "grid": [
+     {
+      "origin": "2010-03-01",
+      "n_base": 1712,
+      "p_inactive": 0.382
+     },
+     {
+      "origin": "2010-03-31",
+      "n_base": 2135,
+      "p_inactive": 0.429
+     },
+     {
+      "origin": "2010-04-30",
+      "n_base": 2442,
+      "p_inactive": 0.469
+     },
+     {
+      "origin": "2010-05-30",
+      "n_base": 2702,
+      "p_inactive": 0.504
+     },
+     {
+      "origin": "2010-06-29",
+      "n_base": 2954,
+      "p_inactive": 0.519
+     },
+     {
+      "origin": "2010-07-29",
+      "n_base": 3145,
+      "p_inactive": 0.467
+     },
+     {
+      "origin": "2010-08-28",
+      "n_base": 3308,
+      "p_inactive": 0.424
+     },
+     {
+      "origin": "2010-09-27",
+      "n_base": 3498,
+      "p_inactive": 0.45
+     },
+     {
+      "origin": "2010-10-27",
+      "n_base": 3899,
+      "p_inactive": 0.55
+     },
+     {
+      "origin": "2010-11-26",
+      "n_base": 4228,
+      "p_inactive": 0.655
+     },
+     {
+      "origin": "2010-12-26",
+      "n_base": 4342,
+      "p_inactive": 0.693
+     },
+     {
+      "origin": "2011-01-25",
+      "n_base": 4395,
+      "p_inactive": 0.656
+     },
+     {
+      "origin": "2011-02-24",
+      "n_base": 4511,
+      "p_inactive": 0.65
+     },
+     {
+      "origin": "2011-03-26",
+      "n_base": 4691,
+      "p_inactive": 0.645
+     },
+     {
+      "origin": "2011-04-25",
+      "n_base": 4809,
+      "p_inactive": 0.654
+     },
+     {
+      "origin": "2011-05-25",
+      "n_base": 4916,
+      "p_inactive": 0.668
+     },
+     {
+      "origin": "2011-06-24",
+      "n_base": 5027,
+      "p_inactive": 0.673
+     },
+     {
+      "origin": "2011-07-24",
+      "n_base": 5112,
+      "p_inactive": 0.628
+     },
+     {
+      "origin": "2011-08-23",
+      "n_base": 5220,
+      "p_inactive": 0.587
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 19,
+     "eval_origins": [
+      "2011-06-24",
+      "2011-07-24",
+      "2011-08-23"
+     ],
+     "mature_train_origins": 14,
+     "eval_base_customers": [
+      5027,
+      5112,
+      5220
+     ]
+    }
+   }
+  },
+  "share_customers_uk": 0.91,
+  "amount_per_occasion_median": 312.53000000000003,
+  "units_per_occasion_median": 166.0,
+  "top1pct_customers_share_of_amount": 0.318
+ },
+ "cdnow_master": {
+  "cleaning_log": {
+   "records": 69659,
+   "occasions": 67591,
+   "same_day_records_merged": 2068,
+   "customers": 23570
+  },
+  "first_date": "1997-01-01",
+  "last_date": "1998-06-30",
+  "span_days": 546,
+  "customers": 23570,
+  "occasions": 67591,
+  "occasions_per_customer_median": 1.0,
+  "share_customers_repeat": 0.489,
+  "share_first_obs_in_first_60d": 0.705,
+  "interpurchase_days_median": 34.0,
+  "interpurchase_days_p90": 200.0,
+  "horizons": {
+   "30": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 23570,
+      "p_inactive": 0.88
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 23570,
+      "p_inactive": 0.908
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 23570,
+      "p_inactive": 0.901
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 23570,
+      "p_inactive": 0.914
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 23570,
+      "p_inactive": 0.923
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 23570,
+      "p_inactive": 0.927
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 23570,
+      "p_inactive": 0.922
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 23570,
+      "p_inactive": 0.916
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 23570,
+      "p_inactive": 0.92
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 23570,
+      "p_inactive": 0.937
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 23570,
+      "p_inactive": 0.936
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 23570,
+      "p_inactive": 0.912
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 23570,
+      "p_inactive": 0.936
+     },
+     {
+      "origin": "1998-04-26",
+      "n_base": 23570,
+      "p_inactive": 0.938
+     },
+     {
+      "origin": "1998-05-26",
+      "n_base": 23570,
+      "p_inactive": 0.934
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 15,
+     "eval_origins": [
+      "1998-03-27",
+      "1998-04-26",
+      "1998-05-26"
+     ],
+     "mature_train_origins": 12,
+     "eval_base_customers": [
+      23570,
+      23570,
+      23570
+     ]
+    }
+   },
+   "60": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 23570,
+      "p_inactive": 0.824
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 23570,
+      "p_inactive": 0.84
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 23570,
+      "p_inactive": 0.844
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 23570,
+      "p_inactive": 0.861
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 23570,
+      "p_inactive": 0.872
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 23570,
+      "p_inactive": 0.872
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 23570,
+      "p_inactive": 0.864
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 23570,
+      "p_inactive": 0.861
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 23570,
+      "p_inactive": 0.877
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 23570,
+      "p_inactive": 0.892
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 23570,
+      "p_inactive": 0.873
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 23570,
+      "p_inactive": 0.872
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 23570,
+      "p_inactive": 0.893
+     },
+     {
+      "origin": "1998-04-26",
+      "n_base": 23570,
+      "p_inactive": 0.892
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 14,
+     "eval_origins": [
+      "1998-02-25",
+      "1998-03-27",
+      "1998-04-26"
+     ],
+     "mature_train_origins": 10,
+     "eval_base_customers": [
+      23570,
+      23570,
+      23570
+     ]
+    }
+   },
+   "90": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 23570,
+      "p_inactive": 0.773
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 23570,
+      "p_inactive": 0.795
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 23570,
+      "p_inactive": 0.805
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 23570,
+      "p_inactive": 0.822
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 23570,
+      "p_inactive": 0.828
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 23570,
+      "p_inactive": 0.826
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 23570,
+      "p_inactive": 0.821
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 23570,
+      "p_inactive": 0.829
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 23570,
+      "p_inactive": 0.844
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 23570,
+      "p_inactive": 0.841
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 23570,
+      "p_inactive": 0.84
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 23570,
+      "p_inactive": 0.842
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 23570,
+      "p_inactive": 0.857
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 13,
+     "eval_origins": [
+      "1998-01-26",
+      "1998-02-25",
+      "1998-03-27"
+     ],
+     "mature_train_origins": 8,
+     "eval_base_customers": [
+      23570,
+      23570,
+      23570
+     ]
+    }
+   }
+  }
+ },
+ "cdnow_sample": {
+  "cleaning_log": {
+   "records": 6919,
+   "occasions": 6696,
+   "same_day_records_merged": 223,
+   "customers": 2357
+  },
+  "first_date": "1997-01-01",
+  "last_date": "1998-06-30",
+  "span_days": 546,
+  "customers": 2357,
+  "occasions": 6696,
+  "occasions_per_customer_median": 1.0,
+  "share_customers_repeat": 0.483,
+  "share_first_obs_in_first_60d": 0.706,
+  "interpurchase_days_median": 34.0,
+  "interpurchase_days_p90": 196.0,
+  "horizons": {
+   "30": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 2357,
+      "p_inactive": 0.887
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 2357,
+      "p_inactive": 0.906
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 2357,
+      "p_inactive": 0.904
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 2357,
+      "p_inactive": 0.918
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 2357,
+      "p_inactive": 0.922
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 2357,
+      "p_inactive": 0.929
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 2357,
+      "p_inactive": 0.925
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 2357,
+      "p_inactive": 0.915
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 2357,
+      "p_inactive": 0.923
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 2357,
+      "p_inactive": 0.938
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 2357,
+      "p_inactive": 0.935
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 2357,
+      "p_inactive": 0.911
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 2357,
+      "p_inactive": 0.942
+     },
+     {
+      "origin": "1998-04-26",
+      "n_base": 2357,
+      "p_inactive": 0.946
+     },
+     {
+      "origin": "1998-05-26",
+      "n_base": 2357,
+      "p_inactive": 0.939
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 15,
+     "eval_origins": [
+      "1998-03-27",
+      "1998-04-26",
+      "1998-05-26"
+     ],
+     "mature_train_origins": 12,
+     "eval_base_customers": [
+      2357,
+      2357,
+      2357
+     ]
+    }
+   },
+   "60": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 2357,
+      "p_inactive": 0.831
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 2357,
+      "p_inactive": 0.839
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 2357,
+      "p_inactive": 0.849
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 2357,
+      "p_inactive": 0.862
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 2357,
+      "p_inactive": 0.872
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 2357,
+      "p_inactive": 0.876
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 2357,
+      "p_inactive": 0.87
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 2357,
+      "p_inactive": 0.864
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 2357,
+      "p_inactive": 0.882
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 2357,
+      "p_inactive": 0.891
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 2357,
+      "p_inactive": 0.868
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 2357,
+      "p_inactive": 0.873
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 2357,
+      "p_inactive": 0.904
+     },
+     {
+      "origin": "1998-04-26",
+      "n_base": 2357,
+      "p_inactive": 0.903
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 14,
+     "eval_origins": [
+      "1998-02-25",
+      "1998-03-27",
+      "1998-04-26"
+     ],
+     "mature_train_origins": 10,
+     "eval_base_customers": [
+      2357,
+      2357,
+      2357
+     ]
+    }
+   },
+   "90": {
+    "grid": [
+     {
+      "origin": "1997-04-01",
+      "n_base": 2357,
+      "p_inactive": 0.781
+     },
+     {
+      "origin": "1997-05-01",
+      "n_base": 2357,
+      "p_inactive": 0.795
+     },
+     {
+      "origin": "1997-05-31",
+      "n_base": 2357,
+      "p_inactive": 0.807
+     },
+     {
+      "origin": "1997-06-30",
+      "n_base": 2357,
+      "p_inactive": 0.824
+     },
+     {
+      "origin": "1997-07-30",
+      "n_base": 2357,
+      "p_inactive": 0.834
+     },
+     {
+      "origin": "1997-08-29",
+      "n_base": 2357,
+      "p_inactive": 0.833
+     },
+     {
+      "origin": "1997-09-28",
+      "n_base": 2357,
+      "p_inactive": 0.831
+     },
+     {
+      "origin": "1997-10-28",
+      "n_base": 2357,
+      "p_inactive": 0.833
+     },
+     {
+      "origin": "1997-11-27",
+      "n_base": 2357,
+      "p_inactive": 0.847
+     },
+     {
+      "origin": "1997-12-27",
+      "n_base": 2357,
+      "p_inactive": 0.841
+     },
+     {
+      "origin": "1998-01-26",
+      "n_base": 2357,
+      "p_inactive": 0.838
+     },
+     {
+      "origin": "1998-02-25",
+      "n_base": 2357,
+      "p_inactive": 0.85
+     },
+     {
+      "origin": "1998-03-27",
+      "n_base": 2357,
+      "p_inactive": 0.87
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 13,
+     "eval_origins": [
+      "1998-01-26",
+      "1998-02-25",
+      "1998-03-27"
+     ],
+     "mature_train_origins": 8,
+     "eval_base_customers": [
+      2357,
+      2357,
+      2357
+     ]
+    }
+   }
+  }
+ },
+ "completejourney": {
+  "cleaning_log": {},
+  "first_date": "2017-01-01",
+  "last_date": "2018-01-01",
+  "span_days": 366,
+  "customers": 2469,
+  "occasions": 126703,
+  "occasions_per_customer_median": 39.0,
+  "share_customers_repeat": 0.986,
+  "share_first_obs_in_first_60d": 0.879,
+  "interpurchase_days_median": 3.0,
+  "interpurchase_days_p90": 13.0,
+  "horizons": {
+   "30": {
+    "grid": [
+     {
+      "origin": "2017-04-01",
+      "n_base": 2280,
+      "p_inactive": 0.14
+     },
+     {
+      "origin": "2017-05-01",
+      "n_base": 2327,
+      "p_inactive": 0.132
+     },
+     {
+      "origin": "2017-05-31",
+      "n_base": 2372,
+      "p_inactive": 0.16
+     },
+     {
+      "origin": "2017-06-30",
+      "n_base": 2391,
+      "p_inactive": 0.145
+     },
+     {
+      "origin": "2017-07-30",
+      "n_base": 2414,
+      "p_inactive": 0.164
+     },
+     {
+      "origin": "2017-08-29",
+      "n_base": 2429,
+      "p_inactive": 0.17
+     },
+     {
+      "origin": "2017-09-28",
+      "n_base": 2445,
+      "p_inactive": 0.169
+     },
+     {
+      "origin": "2017-10-28",
+      "n_base": 2452,
+      "p_inactive": 0.155
+     },
+     {
+      "origin": "2017-11-27",
+      "n_base": 2462,
+      "p_inactive": 0.176
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 9,
+     "eval_origins": [
+      "2017-09-28",
+      "2017-10-28",
+      "2017-11-27"
+     ],
+     "mature_train_origins": 6,
+     "eval_base_customers": [
+      2445,
+      2452,
+      2462
+     ]
+    }
+   },
+   "60": {
+    "grid": [
+     {
+      "origin": "2017-04-01",
+      "n_base": 2280,
+      "p_inactive": 0.065
+     },
+     {
+      "origin": "2017-05-01",
+      "n_base": 2327,
+      "p_inactive": 0.074
+     },
+     {
+      "origin": "2017-05-31",
+      "n_base": 2372,
+      "p_inactive": 0.073
+     },
+     {
+      "origin": "2017-06-30",
+      "n_base": 2391,
+      "p_inactive": 0.078
+     },
+     {
+      "origin": "2017-07-30",
+      "n_base": 2414,
+      "p_inactive": 0.088
+     },
+     {
+      "origin": "2017-08-29",
+      "n_base": 2429,
+      "p_inactive": 0.096
+     },
+     {
+      "origin": "2017-09-28",
+      "n_base": 2445,
+      "p_inactive": 0.087
+     },
+     {
+      "origin": "2017-10-28",
+      "n_base": 2452,
+      "p_inactive": 0.088
+     }
+    ],
+    "protocol": {
+     "feasible": true,
+     "usable_origins": 8,
+     "eval_origins": [
+      "2017-08-29",
+      "2017-09-28",
+      "2017-10-28"
+     ],
+     "mature_train_origins": 4,
+     "eval_base_customers": [
+      2429,
+      2445,
+      2452
+     ]
+    }
+   },
+   "90": {
+    "grid": [
+     {
+      "origin": "2017-04-01",
+      "n_base": 2280,
+      "p_inactive": 0.041
+     },
+     {
+      "origin": "2017-05-01",
+      "n_base": 2327,
+      "p_inactive": 0.04
+     },
+     {
+      "origin": "2017-05-31",
+      "n_base": 2372,
+      "p_inactive": 0.05
+     },
+     {
+      "origin": "2017-06-30",
+      "n_base": 2391,
+      "p_inactive": 0.054
+     },
+     {
+      "origin": "2017-07-30",
+      "n_base": 2414,
+      "p_inactive": 0.056
+     },
+     {
+      "origin": "2017-08-29",
+      "n_base": 2429,
+      "p_inactive": 0.057
+     },
+     {
+      "origin": "2017-09-28",
+      "n_base": 2445,
+      "p_inactive": 0.059
+     }
+    ],
+    "protocol": {
+     "feasible": false,
+     "usable_origins": 7,
+     "eval_origins": [
+      "2017-07-30",
+      "2017-08-29",
+      "2017-09-28"
+     ],
+     "mature_train_origins": 2,
+     "eval_base_customers": [
+      2414,
+      2429,
+      2445
+     ]
+    }
+   }
+  }
+ },
+ "donations_1995": {
+  "donors": 11104,
+  "grain": "annual binary incidence",
+  "years": [
+   1995,
+   2006
+  ],
+  "annual_donation_rate": {
+   "1995": 1.0,
+   "1996": 0.509,
+   "1997": 0.421,
+   "1998": 0.362,
+   "1999": 0.32,
+   "2000": 0.32,
+   "2001": 0.285,
+   "2002": 0.28,
+   "2003": 0.265,
+   "2004": 0.243,
+   "2005": 0.232,
+   "2006": 0.174
+  },
+  "first_col_all_one": true
+ }
+}

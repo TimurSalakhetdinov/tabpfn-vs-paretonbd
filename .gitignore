@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+data/raw/
+data/interim/
+*.egg-info/
+
+# CDNOW: rights unclear, keep per-customer derived files local (see THIRD_PARTY_NOTICES.md)
+results/cdnow_*/**/labels.parquet
+results/cdnow_*/**/preds/
+results/cdnow_*/**/learning_curve/
+results/**/unconverged/
+logs/
+
+# internal agent brief (kept local)
+opus-churn-tabpfn.md

@@ -1,0 +1,78 @@
+{
+ "n_customers": 2357,
+ "actual_holdout_occasions": 1882,
+ "time_unit": "weeks",
+ "pareto_nbd": {
+  "params": {
+   "r": 0.553,
+   "alpha": 10.578,
+   "s": 0.606,
+   "beta": 11.669
+  },
+  "loglik": -9594.98,
+  "pred_holdout_occasions": 1665.5,
+  "corr_individual": 0.63
+ },
+ "abe_hb_m1": {
+  "diagnostics": {
+   "beta_log_lambda": {
+    "median": -3.525419308535517,
+    "q025": -3.746535016971687,
+    "q975": -3.2944701132720304,
+    "rhat": 1.0583837158883207,
+    "ess": 65.57600813651703
+   },
+   "beta_log_mu": {
+    "median": -3.6101785970704015,
+    "q025": -4.036138701057108,
+    "q975": -3.269206481084289,
+    "rhat": 1.0227402565249233,
+    "ess": 215.88345102889855
+   },
+   "var_log_lambda": {
+    "median": 1.343733209104157,
+    "q025": 1.0746910078678038,
+    "q975": 1.6922520747247995,
+    "rhat": 1.0278455188726334,
+    "ess": 122.78502717817285
+   },
+   "var_log_mu": {
+    "median": 2.868694747523914,
+    "q025": 0.9275263453256276,
+    "q975": 6.852446143802496,
+    "rhat": 1.0721648904406933,
+    "ess": 60.959337381627726
+   },
+   "cov_log_lambda_mu": {
+    "median": 0.19278928816398216,
+    "q025": -0.2127215981889433,
+    "q975": 0.8564655480745019,
+    "rhat": 1.0198692014208242,
+    "ess": 167.59881486418507
+   },
+   "corr_log_lambda_mu": {
+    "median": 0.10252391570294248,
+    "rhat": 1.012392090832178,
+    "ess": 220.93330344736788
+   },
+   "accept_rate": 0.3315911310280651,
+   "time_unit_days": 1.0
+  },
+  "seconds": 218.7,
+  "pred_holdout_occasions": 1602.9,
+  "corr_individual": 0.625,
+  "mean_p_alive": 0.431,
+  "p_no_purchase_vs_actual_share_zero": [
+   0.768,
+   0.71
+  ]
+ },
+ "abe_published_m1": {
+  "beta_log_lambda": -3.58,
+  "beta_log_mu": -3.59,
+  "var_log_lambda": 1.4,
+  "var_log_mu": 1.87,
+  "cov_log_lambda_mu": 0.06,
+  "corr": 0.04
+ }
+}

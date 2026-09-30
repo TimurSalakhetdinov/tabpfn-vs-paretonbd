@@ -1,0 +1,11 @@
+model,features,seconds_total,seconds_per_origin,origins
+abe_hb,common,3471.13,1157.0433333333333,3
+base_rate,common,0.0,0.0,3
+glm,common,1.85,0.6166666666666667,3
+glm,expanded,0.78,0.26,3
+lgbm,common,2.5,0.8333333333333334,3
+lgbm,expanded,2.84,0.9466666666666667,3
+pareto_nbd,common,87.7,29.233333333333334,3
+recency,common,1.29,0.43,3
+tabpfn,common,2794.84,931.6133333333333,3
+tabpfn,expanded,2951.74,983.9133333333333,3
