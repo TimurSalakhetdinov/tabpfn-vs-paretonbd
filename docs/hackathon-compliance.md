@@ -19,7 +19,7 @@ step · **n/a** = not applicable.
 | 3.4 | API credits | **n/a** | Runs locally with downloaded weights; no API calls and no cost |
 | 3.5(i) | Link to a **public** source repository under **Apache-2.0** | **pass** | https://github.com/TimurSalakhetdinov/tabpfn-vs-paretonbd (public since 2026-09-30); `LICENSE` (Apache-2.0), `pyproject.toml` `license = "Apache-2.0"` |
 | 3.5(ii) | Description detailed enough for a third-party developer | **pass** | `docs/submission-description.md`, 4,918 characters with both datasets' holdout results (≤ 5,000; the form enforces `max(5000)`, checked in the page bundle) |
-| 3.5 optional | Video link, social handles | **pending (human)** | Script ready in `docs/demo-script.md`; recording and upload are left to the user |
+| 3.5 optional | Video link, social handles | **pending (human)** | Demo script kept locally (not published); recording and upload are left to the user |
 | 3.6 | Submit by **6 Oct 2026, 23:59 CEST** | **pending (human)** | Package targets reviewable by 3 Oct and frozen by 5 Oct |
 | 3.7 | Latest submission counts; separate entries per project | n/a | One entry |
 | 4.2 | Judging: showcase 50 %, creativity and value 30 %, technical quality and reproducibility 20 % | — | See "How the entry addresses the criteria" below |

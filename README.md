@@ -193,7 +193,7 @@ src/tabpfn_vs_paretonbd/  data.py (fetch, hashes, cleaning) · features.py (snap
 results/<ds>/<split>/     manifest.json · labels.parquet · preds/ · learning_curve/ · tables/ · figures/
                           diagnostics_*.json
 docs/                     dataset-selection.md · hackathon-compliance.md · submission-description.md
-                          demo-script.md · case-study.md · evidence/ · profiling/
+                          case-study.md · evidence/ · profiling/
 scripts/                  profiling, development pilots, Bayesian validation
 tests/                    cutoffs, censoring, maturity, grouping, published Pareto/NBD values, metric orientation
 ```
